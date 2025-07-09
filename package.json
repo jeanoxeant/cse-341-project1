@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jeanoxeant/cse-341-project1#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
   }
 }
