@@ -1,4 +1,8 @@
 const router = require('express').Router();
+router.post('/', (req, res) => {
+  res.send('New contact added');
+});
+
 
 router.use('/', require('./swagger'));
 

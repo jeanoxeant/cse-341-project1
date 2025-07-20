@@ -3,31 +3,31 @@
 GET http://localhost:5000/contacts
 
 ### Get contacts by id
-GET http://localhost:5000/contacts/686dbe579d2d58e56ebaccb3
+GET http://localhost:5000/contacts/686dcf979d2d58e56ebaccb5
 
 ### Create contact
 POST http://localhost:5000/contacts HTTP/1.1
 content-type: application/json
 
  {
-    "firstName": "Jean Rubin",
-    "lastName": "Oxeant",
-    "email": "jeanrubinoxeant@gmail.com",
-    "favoriteColor": "blue",
-    "birthday": "5-9-1982"
+   "firstName": "Joshua",
+   "lastName": "Ocean",
+   "email": "joshuaocean@gmail.com",
+   "favoriteColor": "red",
+   "birthday": "12-12-1986"
  }
 
 ### PUT contact
-PUT http://localhost:5000/contacts/686dbe579d2d58e56ebaccb3 HTTP/1.1
+PUT http://localhost:5000/contacts/686dcf979d2d58e56ebaccb5 HTTP/1.1
 content-type: application/json
 
 {
-   "firstName": "Jean Rubin",
-    "lastName": "Oxeant",
-    "email": "jeanrubinoxeant@gmail.com",
-    "favoriteColor": "blue",
-    "birthday": "5-9-1982" 
+   "firstName": "Joshua",
+   "lastName": "Ocean",
+   "email": "joshuaocean@gmail.com",
+   "favoriteColor": "red",
+   "birthday": "12-12-1986"
 }
 
 ### Delete contact
-DELETE http://localhost:5000/contacts/686dbe579d2d58e56ebaccb3 HTTP/1.1
+DELETE http://localhost:5000/contacts/686dbe579d2d58e56ebaccb5 HTTP/1.1
